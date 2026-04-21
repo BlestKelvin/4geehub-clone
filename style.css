@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: inline-block;
+    justify-content: left;
+    width: 100%;
+    font-size: 18px;
+}
+ul{
+    list-style-type: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    gap: 25px;
+    width: 100%;
+    height: 50px;
+}
+.login{
+    background-color: black;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+ul li > a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+/* HERO */
+.hero {
+    /* height: 400px; */
+    text-align: center;
+    background: url('/projects/assets/4geehero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 86px 10px 0px 0;
+    width: 100%;
+    height:600px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.hero h1{
+    font-size: 36px;
+}
+.store-buttons{
+    padding: 20px;
+}
+.phone{
+    position: relative;
+    text-align: center;
+}
+.phone img{
+    width: 400px;
+}
+.info-bar{
+    position: absolute;
+    bottom: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width:100%;
+    background:black; 
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    border: 1px solid white;
+}
+.info-bar div{
+    text-align: left;
+}
+
